@@ -46,7 +46,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
-
+Buildings_Albedo.tif
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
@@ -54,7 +54,7 @@ ExportedObj/
 
 # Unity3D generated file on crash reports
 sysinfo.txt
-
+Assets\Creator Kit - Beginner Code\Art\Texture\Buildings\Buildings_Albedo.tif
 # Builds
 *.apk
 *.aab
