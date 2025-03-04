@@ -21,7 +21,8 @@ MonoBehaviour:
   MinimumStrength: 0
   MinimumAgility: 0
   MinimumDefense: 0
-  EquippedEffects: []
+  EquippedEffects:
+  - {fileID: 431233894578179000}
   HitSounds: []
   SwingSounds: []
   Stats:
@@ -30,3 +31,25 @@ MonoBehaviour:
     MaximumDamage: 5
     MaxRange: 3
   AttackEffects: []
+--- !u!114 &431233894578179000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674612dbe4e22e441942361b0bdb7803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: 
+  Modifier:
+    ModifierMode: 1
+    Stats:
+      health: 0
+      strength: 0
+      defense: 0
+      agility: 0
+      elementalProtection: 00000000000000000000000000000000
+      elementalBoosts: 00000000000000000000000000000000
