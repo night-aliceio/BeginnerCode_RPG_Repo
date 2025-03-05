@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Description: Adds 3 defense
-  DefenseAmount: 3
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33,7 +32,7 @@ MonoBehaviour:
     type: 3}
   Slot: 0
   MinimumStrength: 0
-  MinimumAgility: 2
+  MinimumAgility: 0
   MinimumDefense: 0
   EquippedEffects:
   - {fileID: -4998028211238184502}
