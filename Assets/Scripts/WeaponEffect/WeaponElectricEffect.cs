@@ -13,7 +13,8 @@ public class WeaponFireEffectScript : Weapon.WeaponAttackEffect
 
     public override void OnAttack(CharacterData target, CharacterData user, ref Weapon.AttackData attackData)
     {
-        if (UnityEngine.Random.value < (PercentageChance / 100.0f))
+        int enemyHealth = target.Stats.CurrentHealth;
+        if (enemyHealth > 5)
         {
             ElementalEffect effect = new ElementalEffect(Time, StatSystem.DamageType.Electric, Damage, 2.0f);
             target.Stats.AddElementalEffect(effect);

@@ -11,11 +11,11 @@ public class WeaponAttackSpript : Weapon.WeaponAttackEffect
        int enemyHealth = target.Stats.CurrentHealth;
         if (enemyHealth < 5)
         {
-            enemyHealth = 0;
+            enemyHealth = -5;
         }
         else
         {
-            enemyHealth -= 2;
+            enemyHealth = -2;
         }
     }
     public int PercentageHealthStolen;
